@@ -1,13 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import List from './List'
+import Modal from "./Modal";
 
-function App() {
+function App(){
   return(
-    <List></List>
+    <Modal></Modal>
   )
 }
-
-export default App
+export default App;
